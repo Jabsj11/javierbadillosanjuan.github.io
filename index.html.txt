@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Página Profesional</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+    h1 { color: #333; }
+    img { max-width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+  <h1>Hola, soy [Tu Nombre]</h1>
+  <p>Soy [profesión o actividad]. Aquí comparto algunos trabajos, ideas y proyectos.</p>
+  <img src="mi-foto.jpg" alt="Mi foto">
+  <h2>Últimas publicaciones</h2>
+  <p>Post 1: resumen de algo que hiciste...</p>
+  <p>Post 2: otro contenido profesional...</p>
+</body>
+</html>
