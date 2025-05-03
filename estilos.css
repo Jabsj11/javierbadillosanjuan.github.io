@@ -57,8 +57,9 @@ body {
   }
   
   .galeria-proyecto img {
-    max-width: 48%;
+    max-width: 45%;
+    width: 45%;
     height: auto; /* Esto asegura que la proporción se mantenga */
     display: block;
     object-fit: contain; /* Asegura que la imagen no se distorsione */
-  }
+  } 
