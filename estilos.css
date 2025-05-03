@@ -49,3 +49,16 @@ body {
     font-size: 0.9rem;
   }
   
+  .galeria-proyecto {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .galeria-proyecto img {
+    max-width: 48%;
+    height: auto; /* Esto asegura que la proporción se mantenga */
+    display: block;
+    object-fit: contain; /* Asegura que la imagen no se distorsione */
+  }
