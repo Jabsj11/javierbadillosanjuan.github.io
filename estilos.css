@@ -64,3 +64,30 @@ body {
     display: block;
     object-fit: contain; /* Asegura que la imagen no se distorsione */
   } 
+
+  .boton-linkedin {
+    font-size: 0.9rem; /* Ajusta el tamaño del texto */
+    padding: 6px 12px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .boton-linkedin:hover {
+    background-color: #005f8d;
+  }
+  
+  
+  .boton-linkedin:hover {
+    background-color: #004182;
+  }
+  
+  .descripcion-profesion {
+    font-size: 1.4rem;
+  }
+
+  
