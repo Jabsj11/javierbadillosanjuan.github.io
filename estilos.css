@@ -1,127 +1,127 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-    text-align: justify;
-  }
-  
-  header {
-    background-color: #003366;
-    color: white;
-    padding: 2rem;
-    text-align: center;
-    font-size: 1.2rem;
-  }
-  
-  main {
-    max-width: 800px;
-    margin: auto;
-    padding: 2rem;
-  }
-  
-  h1, h2 {
-    margin-bottom: 0.5rem;
-  }
-  
-  h3 {
-    margin-top: 1.5rem;
-  }
-  
-  a {
-    color: #0056b3;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  section {
-    margin-bottom: 2rem;
-  }
-  
-  footer {
-    text-align: center;
-    background-color: #eee;
-    padding: 1rem;
-    font-size: 0.9rem;
-  }
-  
-  .galeria-proyecto {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-  
-  .galeria-proyecto img {
-    max-width: 45%;
-    width: 45%;
-    height: auto; /* Esto asegura que la proporción se mantenga */
-    display: block;
-    object-fit: contain; /* Asegura que la imagen no se distorsione */
-  } 
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: justify;
+}
 
-  .boton-linkedin {
-    font-size: 0.9rem; /* Ajusta el tamaño del texto */
-    padding: 6px 12px;
-    display: inline-flex;
-    align-items: center;
-    background-color: #0077b5;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.2s ease;
-  }
-  
-  .boton-linkedin:hover {
-    background-color: #005f8d;
-  }
-  
-  
-  .boton-linkedin:hover {
-    background-color: #004182;
-  }
-  
-  .descripcion-profesion {
-    font-size: 1.4rem;
-  }
+header {
+  background-color: #003366;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
 
-  .detalle-cargo {
-    margin: 0 0 0.3rem 0;
-    font-size: 1rem;
-  }
-  
-  .detalle-cargo .fecha {
-    color: #888;
-    font-size: 0.9rem;
-  }
- 
-  .imagen-pequena {
-    max-width: 280px;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
 
-  figure {
-    text-align: center;
-    margin: 1rem auto;
-  }
-  
-  figure img {
-    display: block;
-    margin: 0 auto;
-  }
-  
-  figure figcaption {
-    font-size: 0.85rem;
-    max-width: 280px;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 1.4;
-  }
+h1, h2 {
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+}
+
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.galeria-proyecto {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.galeria-proyecto img {
+  max-width: 45%;
+  width: 45%;
+  height: auto; /* Esto asegura que la proporción se mantenga */
+  display: block;
+  object-fit: contain; /* Asegura que la imagen no se distorsione */
+} 
+
+.boton-linkedin {
+  font-size: 0.9rem; /* Ajusta el tamaño del texto */
+  padding: 6px 12px;
+  display: inline-flex;
+  align-items: center;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.boton-linkedin:hover {
+  background-color: #005f8d;
+}
+
+
+.boton-linkedin:hover {
+  background-color: #004182;
+}
+
+.descripcion-profesion {
+  font-size: 1.4rem;
+}
+
+.detalle-cargo {
+  margin: 0 0 0.3rem 0;
+  font-size: 1rem;
+}
+
+.detalle-cargo .fecha {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.imagen-pequena {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+figure {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+figure figcaption {
+  font-size: 0.85rem;
+  max-width: 280px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.4;
+}
